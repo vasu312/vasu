@@ -493,7 +493,7 @@ body {
 
 .work .heading {
   text-align: center;
-  padding: 5rem 0 1rem 0;
+  padding: 5rem 0 0 0;
 }
 
 .work .heading span {
@@ -511,7 +511,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 18rem;
+  height: 17rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -576,14 +576,14 @@ body {
 /* experience  */
 
 .experience .heading {
-  padding: 5rem 0 1rem 0;
+  padding: 6rem 0 1rem 0;
   text-align: center;
 }
 
 .experience .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 .experience .timeline::after {
   content: "";
@@ -991,7 +991,7 @@ form .button-area {
     left: 198px;
     z-index: 1;
   }
-  
+
   .navbar .icon img {
     position: relative;
     top: 3.5px;
@@ -1160,20 +1160,21 @@ form .button-area {
 
 /* Work */
 
-.work .heading {
-  padding-top: 1.5rem;
-}
+@media screen and (max-width: 600px) {
+  .work .heading {
+    padding-top: 1.5rem;
+  }
 
-.work .box-container .tilt {
-  margin: 1rem 2rem;
+  .work .box-container .tilt {
+    margin: 1rem 2rem;
+  }
+  .work .box-container .tilt:first-child {
+    margin-top: 0rem;
+  }
+  .work .box-container .tilt:last-child {
+    margin-bottom: 4rem;
+  }
 }
-.work .box-container .tilt:first-child {
-  margin-top: 0rem;
-}
-.work .box-container .tilt:last-child {
-  margin-bottom: 4rem;
-}
-
 /* .experience */
 
 @media screen and (max-width: 600px) {
