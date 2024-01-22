@@ -342,6 +342,7 @@ body {
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
+  padding-bottom: 3.5rem;
 }
 .skills h2 {
   text-align: center;
