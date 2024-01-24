@@ -2,6 +2,10 @@
 
 ![Website Screenshot](./assets/portfolio.png)
 
+![Website Screenshot](./assets/portfolio%202.png)
+
+![Website Screenshot](./assets/portfolio%203.png)
+
 This is my personal portfolio website developed using pure HTML, CSS, and Javascript. The website showcases my skills , projects and provides information about me.
 
 ## Live Demo
