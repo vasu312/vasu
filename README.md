@@ -2,7 +2,7 @@
 
 ![Website Screenshot](./assets/portfolio.png)
 
-This is my personal portfolio website developed using pure HTML and CSS. The website showcases my skills, projects, and provides information about me.
+This is my personal portfolio website developed using pure HTML, CSS, and Javascript. The website showcases my skills , projects and provides information about me.
 
 ## Live Demo
 Visit the live website: [vasu3.netlify.app](https://vasu3.netlify.app)
