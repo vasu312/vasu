@@ -21,6 +21,7 @@ Visit the live website: [vasu3.netlify.app](https://vasu3.netlify.app)
 
 - HTML
 - CSS
+- JavaScript
 
 ## Deployment
 
