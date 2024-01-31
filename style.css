@@ -1055,7 +1055,11 @@ form .button-area {
   }
 
   #home .info .btn {
-    padding: 0.5rem 1.4rem;
+    padding: 0.3rem 1rem 1rem 1rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    font-size: 1.3rem;
   }
   .social {
     gap: 1.5rem;
@@ -1089,11 +1093,15 @@ form .button-area {
   }
 
   .about .row .content {
-    padding: 0 0 0 2.5rem;
+    padding: 0 0 1rem 0;
+  }
+  .about .row .content p{
+    font-size: 1.3rem;
   }
 
   .about .row .image img {
-    margin: 2rem;
+    margin: 2rem 0;
+    padding: 0;
   }
 }
 
@@ -1113,7 +1121,7 @@ form .button-area {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem;
-    gap: 2rem;
+    gap: 2rem; 
   }
   .skills .container {
     margin-top: 5px;
@@ -1180,7 +1188,7 @@ form .button-area {
 
 @media screen and (max-width: 600px) {
   .experience {
-    min-height: 55vh !important;
+    min-height: 45vh !important;
   }
   .experience .heading {
     font-size: 2rem;
@@ -1255,6 +1263,10 @@ form .button-area {
     gap: 0;
   }
 
+  .footer .box-container .box:first-child {
+    display: none;
+  }
+
   .footer .box-container .box h3 {
     text-align: center;
     padding: 0;
@@ -1271,7 +1283,7 @@ form .button-area {
     font-size: 15px !important;
   }
   .footer .box-container .box .share a {
-    padding: 1.2rem;
+    padding: 1.4rem;
   }
 }
 
