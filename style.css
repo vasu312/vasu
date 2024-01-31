@@ -1118,7 +1118,7 @@ form .button-area {
     margin: 0;
   }
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 1rem;
     padding: 2rem;
     gap: 2rem; 
@@ -1127,6 +1127,21 @@ form .button-area {
     margin-top: 5px;
     width: 100%;
   }
+  .skills .container .row .bar {
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .skills .container .row .bar .info{
+    margin-top: 2rem;
+  }
+  .skills .container .row .bar .info img ,.skills .container .row .bar .info svg{
+    width: 40px; 
+    height: 40px;
+  }
+
 }
 
 /* Education */
