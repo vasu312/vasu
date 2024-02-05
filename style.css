@@ -1134,6 +1134,15 @@ form .button-area {
     width: 100px;
     height: 100px;
   }
+
+  .skills .container .row .bar:nth-child(19) .info , .skills .container .row .bar:nth-child(33) .info {
+    box-sizing: content-box;
+    padding: 0px;
+    margin-top: 20px;
+    width: 100px;
+    height: 60px;
+  }
+
   .skills .container .row .bar .info{
     margin-top: 2rem;
   }
